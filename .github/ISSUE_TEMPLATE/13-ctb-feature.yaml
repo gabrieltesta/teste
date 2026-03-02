@@ -1,0 +1,102 @@
+name: Painel do Contador - Features
+description: Template para features do Painel do Contador
+title: "Painel do Contador: "
+type: Feature
+labels: ["Time: CTB"]
+projects: ["omiexperience/7"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 🎯 Card Feature
+        Preencha todas as seções para documentar a alteração técnica de forma clara e concisa.
+
+  - type: textarea
+    id: origin
+    attributes:
+      label: 📋 Origem
+      description: Qual o contexto da demanda? Por que este item entrou na release?
+      placeholder: |
+        Exemplo: Sugestão de usuário, correção de bug, melhoria técnica...
+      value: ""
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-done
+    attributes:
+      label: 🔧 O que será feito
+      description: Descrição técnica da alteração realizada
+      placeholder: |
+        Resumo técnico da implementação
+      value: ""
+    validations:
+      required: true
+
+  - type: textarea
+    id: where
+    attributes:
+      label: 🔍 Onde ocorrerá a mudança
+      description: Quais telas? Quais módulos? Quais arquivos?
+      placeholder: |
+        Exemplo: Tela de geração de arquivos
+      value: ""
+    validations:
+      required: true
+
+  - type: textarea
+    id: how
+    attributes:
+      label: ⚙️ Como será implementada (detalhes técnicos)
+      description: Detalhes técnicos da implementação
+      placeholder: |
+        Exemplo: Novo método em ClassName:Exec(), refatoração de função, adição de validação...
+      value: ""
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 📱 Comportamento esperado
+      description: Qual o comportamento esperado do sistema após a alteração?
+      placeholder: |
+        Descreva o resultado esperado para o usuário final
+      value: ""
+    validations:
+      required: true
+
+  - type: textarea
+    id: user-impact
+    attributes:
+      label: 👥 Impacto para o usuário
+      description: Qual o impacto prático para o usuário?
+      placeholder: |
+        ex. Melhoria de performance, novo recurso, correção de erro...
+      value: ""
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: environment
+    attributes:
+      label: 🌍 Ambiente
+      description: Em quais ambientes a alteração será aplicada?
+      options:
+        - label: DSV (Desenvolvimento)
+          selected: true
+        - label: QA (release-candidate)
+          selected: true
+        - label: PRD (master)
+          selected: true
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment-observations
+    attributes:
+      label: 📝 Observações sobre o ambiente (apps, buckets, data de liberação, etc.)
+      description: Há alguma observação sobre os ambientes? Será liberado para apenas alguns apps e/ou buckets? Há data de liberação para produção?
+      placeholder: "Exemplo: liberado apenas para os Quadrados Amarelos"
+    validations:
+      required: false
