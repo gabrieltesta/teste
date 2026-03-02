@@ -18,7 +18,6 @@ body:
       description: Qual o contexto da demanda? Por que este item entrou na release?
       placeholder: |
         Exemplo: Sugestão de usuário, correção de bug, melhoria técnica...
-      value: ""
     validations:
       required: true
 
@@ -29,7 +28,6 @@ body:
       description: Descrição técnica da alteração realizada
       placeholder: |
         Resumo técnico da implementação
-      value: ""
     validations:
       required: true
 
@@ -40,7 +38,6 @@ body:
       description: Quais telas? Quais módulos? Quais arquivos?
       placeholder: |
         Exemplo: Tela de geração de arquivos
-      value: ""
     validations:
       required: true
 
@@ -51,7 +48,6 @@ body:
       description: Detalhes técnicos da implementação
       placeholder: |
         Exemplo: Novo método em ClassName:Exec(), refatoração de função, adição de validação...
-      value: ""
     validations:
       required: true
 
@@ -62,7 +58,6 @@ body:
       description: Qual o comportamento esperado do sistema após a alteração?
       placeholder: |
         Descreva o resultado esperado para o usuário final
-      value: ""
     validations:
       required: true
 
@@ -73,7 +68,6 @@ body:
       description: Qual o impacto prático para o usuário?
       placeholder: |
         ex. Melhoria de performance, novo recurso, correção de erro...
-      value: ""
     validations:
       required: true
 
