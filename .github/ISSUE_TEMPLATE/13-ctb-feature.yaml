@@ -1,7 +1,6 @@
 name: Painel do Contador - Features
 description: Template para features do Painel do Contador
 title: "Painel do Contador: "
-type: Feature
 labels: ["Time: CTB"]
 projects: ["omiexperience/7"]
 body:
