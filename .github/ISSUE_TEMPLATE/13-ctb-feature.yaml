@@ -78,11 +78,8 @@ body:
       description: Em quais ambientes a alteração será aplicada?
       options:
         - label: DSV (Desenvolvimento)
-          selected: true
         - label: QA (release-candidate)
-          selected: true
         - label: PRD (master)
-          selected: true
     validations:
       required: true
 
